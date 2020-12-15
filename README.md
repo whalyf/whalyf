@@ -1,16 +1,20 @@
-### Hi there 👋
+<h2> Hi there 👋</h2>
 
-- 🔭 I’m a Computer Engineer
+- <h3>🔭 I’m a Computer Engineer and here you'll find some of my projects</h3>
 
-<!--
-**whalyf/whalyf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- <h3>🌱 I’m build with ...</h3>
 
-Here are some ideas to get you started:
+- <h3>📫 How to reach me:</h3>
+<p align="center">
+  <a href="https://www.linkedin.com/in/whalyf/" rel="nofollow">
+    <img src="https://raw.githubusercontent.com/MikeCodesDotNET/MikeCodesDotNET/a8abbf37441f3253f74ea255a47f289208d7568c/Resources/linkedIn.svg" alt="LinkedIn" style="max-width:100%;">
+  </a>
+  <a href="https://twitter.com/whalyf1" rel="nofollow">
+    <img src="https://raw.githubusercontent.com/MikeCodesDotNET/MikeCodesDotNET/a8abbf37441f3253f74ea255a47f289208d7568c/Resources/twitter.svg" alt="Twitter" style="max-width:100%;">
+  </a>
+  <a href="https://www.instagram.com/whalyf1/" rel="nofollow">
+    <img src="https://raw.githubusercontent.com/MikeCodesDotNET/MikeCodesDotNET/a8abbf37441f3253f74ea255a47f289208d7568c/Resources/instagram.svg" alt="Instagram" style="max-width:100%;">
+  </a>
+  </p>
 
-
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: 
--->
+  
