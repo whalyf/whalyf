@@ -87,7 +87,8 @@ Platform to increase visibility of child care institutions.
 ## 📫 Contact
 
 <p align="center">
+  <a href="https://whalyf.github.io/whalyf/">Portfolio</a> •
   <a href="https://www.linkedin.com/in/whalyf/">LinkedIn</a> •
   <a href="mailto:whalyfeng@gmail.com">Email</a> •
-  <a href="https://github.com/seu-usuario">GitHub</a>
+  <a href="https://github.com/whalyf">GitHub</a>
 </p>
