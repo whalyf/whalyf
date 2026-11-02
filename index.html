@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Whalyf Viana — Desenvolvedor Full Stack</title>
+  <meta name="description" content="Portfólio de Whalyf Viana, desenvolvedor full stack com Node.js, React e React Native.">
+  <meta name="theme-color" content="#0b0f14">
+  <meta property="og:title" content="Whalyf Viana — Desenvolvedor Full Stack">
+  <meta property="og:description" content="Node.js, React e React Native. Projetos, tecnologias e contato.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/avatar.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0f14'/%3E%3Ctext x='32' y='43' font-family='monospace' font-size='30' font-weight='700' text-anchor='middle' fill='%234ade80'%3E%26lt;/%26gt;%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Aplica o tema salvo antes da pintura para evitar flash
+    try {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#topo" aria-label="Início">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span> whalyf
+      </a>
+
+      <nav id="menu" class="nav" aria-label="Principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Alternar tema claro/escuro">
+          <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="topo">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="status"><span class="dot" aria-hidden="true"></span> Aberto a oportunidades</p>
+          <h1>Olá, eu sou o <span class="accent">Whalyf Viana</span>.</h1>
+          <p class="lead">
+            Desenvolvedor full stack com foco em <strong>Node.js</strong>, <strong>React</strong>
+            e <strong>React Native</strong>. Construo da API ao app mobile, com TypeScript e
+            atenção à experiência de quem usa.
+          </p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/whalyf/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="btn btn-ghost" href="https://github.com/whalyf" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+          <p class="where">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Santa Maria da Vitória, BA — Brasil
+          </p>
+        </div>
+
+        <div class="hero-photo">
+          <img src="assets/avatar.png" alt="Foto de Whalyf Viana" width="280" height="280">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container">
+        <h2 class="section-title"><span class="num">01</span> Sobre</h2>
+        <div class="about-grid">
+          <div class="prose">
+            <p>
+              Meu foco é em <strong>Next.js</strong>, <strong>TypeScript</strong> e
+              <strong>Tailwind CSS</strong>, para construir interfaces web.
+            </p>
+            <p>
+              Minha trajetória também passa por <strong>AngularJS, Node.js, React Native, PHP e Golang</strong>,
+              o que me deu uma visão ampla de como construir aplicações em diferentes ambientes e plataformas.
+            </p>
+            <p>
+              Na graduação, trabalhei com C, C++, Java e Python e participei de projetos de extensão
+              e grupos de pesquisa, assumindo papéis de liderança em alguns deles. Isso fortaleceu
+              minha comunicação e meu trabalho em equipe.
+            </p>
+            <p>
+              Hoje estou aberto a novas oportunidades, em um ambiente que valorize inovação e
+              crescimento profissional.
+            </p>
+          </div>
+
+          <aside class="about-side" aria-label="Resumo">
+            <ul class="stats">
+              <li><strong>27</strong><span>repositórios públicos</span></li>
+              <li><strong>12</strong><span>em TypeScript</span></li>
+              <li><strong><span data-years>9</span>+</strong><span>anos no GitHub</span></li>
+            </ul>
+            <dl class="facts">
+              <div><dt>Foco</dt><dd>Front-end · Full stack</dd></div>
+              <div><dt>Formação</dt><dd>Engenharia da Computação</dd></div>
+              <div><dt>Local</dt><dd>Santa Maria da Vitória, BA</dd></div>
+            </dl>
+          </aside>
+        </div>
+
+        <h3 class="subhead">O que eu faço</h3>
+        <div class="focus">
+          <article class="focus-item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            <h4>Interfaces web</h4>
+            <p>Interfaces com Next.js, React e TypeScript, estilizadas com Tailwind CSS.</p>
+          </article>
+          <article class="focus-item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.01M7 17.5h.01"/></svg>
+            <h4>Back-end e APIs</h4>
+            <p>APIs REST com Node.js e NestJS, dados em MongoDB, PostgreSQL ou SQLite com Prisma e documentação com Swagger. Também já trabalhei com Go e PHP.</p>
+          </article>
+          <article class="focus-item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
+            <h4>Mobile</h4>
+            <p>Apps em React Native que dividem a mesma API com a versão web, como no HappyWeb, no BeTheHero e no spacetime.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="habilidades">
+      <div class="container">
+        <h2 class="section-title"><span class="num">02</span> Habilidades</h2>
+        <div class="skills">
+          <article class="skill-group">
+            <h3>Front-end</h3>
+            <ul class="chips">
+              <li>React</li><li>Next.js</li><li>TypeScript</li><li>JavaScript</li>
+              <li>Angular</li><li>Vite</li><li>Tailwind CSS</li><li>styled-components</li>
+              <li>Material UI</li><li>HTML &amp; CSS</li>
+            </ul>
+          </article>
+          <article class="skill-group">
+            <h3>Back-end</h3>
+            <ul class="chips">
+              <li>Node.js</li><li>NestJS</li><li>Express</li><li>Go</li>
+              <li>REST APIs</li><li>Swagger</li><li>OAuth</li>
+            </ul>
+          </article>
+          <article class="skill-group">
+            <h3>Mobile</h3>
+            <ul class="chips">
+              <li>React Native</li>
+            </ul>
+          </article>
+          <article class="skill-group">
+            <h3>Dados</h3>
+            <ul class="chips">
+              <li>MongoDB</li><li>PostgreSQL</li><li>SQLite</li><li>Prisma</li><li>Mongoose</li>
+            </ul>
+          </article>
+          <article class="skill-group">
+            <h3>Também já usei</h3>
+            <ul class="chips">
+              <li>AngularJS</li><li>PHP</li><li>C</li><li>C++</li><li>Java</li><li>Python</li><li>Hibernate</li>
+            </ul>
+          </article>
+          <article class="skill-group">
+            <h3>Ambiente</h3>
+            <ul class="chips">
+              <li>Linux</li><li>Git &amp; GitHub</li><li>Vercel</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="container">
+        <h2 class="section-title"><span class="num">03</span> Projetos</h2>
+        <p class="section-sub">Uma seleção do que está no meu GitHub. Cada cartão leva ao código-fonte.</p>
+
+        <div class="cards">
+          <article class="card">
+            <h3><a href="https://github.com/whalyf/spacetime" target="_blank" rel="noopener noreferrer">spacetime</a></h3>
+            <p>
+              Monorepo com back-end (Node.js, GitHub OAuth, Prisma), mobile (React Native) e web
+              (React, Next.js, Tailwind CSS). Login com GitHub e publicação de memórias com fotos e
+              descrição, públicas ou privadas.
+            </p>
+            <ul class="tags"><li>Node.js</li><li>React Native</li><li>Next.js</li><li>Prisma</li><li>Tailwind</li></ul>
+          </article>
+
+          <article class="card">
+            <h3><a href="https://github.com/whalyf/google-search-robot" target="_blank" rel="noopener noreferrer">google-search-robot</a></h3>
+            <p>
+              Aplicação full stack com NestJS, MongoDB, React, TypeScript e Go, desenvolvida como
+              desafio técnico para a BrandMonitor.
+            </p>
+            <ul class="tags"><li>NestJS</li><li>Go</li><li>MongoDB</li><li>React</li><li>TypeScript</li></ul>
+          </article>
+
+          <article class="card">
+            <h3><a href="https://github.com/whalyf/schedule-event" target="_blank" rel="noopener noreferrer">schedule-event</a></h3>
+            <p>
+              Aplicação para gerenciar eventos e programações. API REST em NestJS com Prisma e
+              SQLite, documentada com Swagger, e interface em React com Material UI.
+            </p>
+            <ul class="tags"><li>NestJS</li><li>Prisma</li><li>SQLite</li><li>Swagger</li><li>React</li></ul>
+          </article>
+
+          <article class="card">
+            <h3><a href="https://github.com/whalyf/Bitcent" target="_blank" rel="noopener noreferrer">Bitcent</a></h3>
+            <p>
+              Aplicação responsiva para controlar as finanças, gerenciar despesas e acompanhar dívidas.
+            </p>
+            <ul class="tags"><li>TypeScript</li><li>React</li></ul>
+          </article>
+
+          <article class="card">
+            <h3><a href="https://github.com/whalyf/HappyWeb" target="_blank" rel="noopener noreferrer">HappyWeb</a></h3>
+            <p>
+              Sistema full stack em TypeScript com web em React, aplicativo em React Native e API em
+              Node.js com SQLite3.
+            </p>
+            <ul class="tags"><li>React</li><li>React Native</li><li>Node.js</li><li>SQLite</li></ul>
+          </article>
+
+          <article class="card">
+            <h3><a href="https://github.com/whalyf/marvel-heroes" target="_blank" rel="noopener noreferrer">marvel-heroes</a></h3>
+            <p>
+              Catálogo de heróis do universo Marvel, consumindo a Marvel Developers API, para
+              navegar e descobrir personagens.
+            </p>
+            <ul class="tags"><li>React</li><li>TypeScript</li><li>styled-components</li></ul>
+          </article>
+        </div>
+
+        <p class="more">
+          <a class="btn btn-ghost" href="https://github.com/whalyf?tab=repositories" target="_blank" rel="noopener noreferrer">Ver todos os repositórios no GitHub →</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <div class="container">
+        <h2 class="section-title"><span class="num">04</span> Contato</h2>
+        <div class="contact">
+          <p>
+            Tem uma vaga, um projeto ou só quer trocar uma ideia? A forma mais rápida de falar
+            comigo é pelo LinkedIn.
+          </p>
+          <div class="cta">
+            <a class="btn btn-primary" href="https://www.linkedin.com/in/whalyf/" target="_blank" rel="noopener noreferrer">Falar no LinkedIn</a>
+            <a class="btn btn-ghost" href="https://github.com/whalyf" target="_blank" rel="noopener noreferrer">github.com/whalyf</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> Whalyf Viana. Feito à mão com HTML, CSS e JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
