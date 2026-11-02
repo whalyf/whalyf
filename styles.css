@@ -209,6 +209,19 @@ h1 { font-size: clamp(2.1rem, 5.5vw, 3.6rem); line-height: 1.1; margin: 0 0 20px
 .card h3 a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .card p { margin: 0; color: var(--muted); font-size: .95rem; flex: 1; }
 
+.cards-featured { grid-template-columns: 1fr; margin-bottom: 20px; }
+.cards-2 { grid-template-columns: repeat(2, 1fr); }
+.card-featured { border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); }
+.card-featured p { max-width: 70ch; }
+.card-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+
+.badge {
+  padding: 3px 12px; border-radius: 999px; font-size: .78rem; font-weight: 600;
+  color: var(--accent); border: 1px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+.badge-muted { color: var(--muted); border-color: var(--border); background: transparent; }
+
 .more { margin: 32px 0 0; text-align: center; }
 
 /* Contact */
@@ -238,6 +251,10 @@ h1 { font-size: clamp(2.1rem, 5.5vw, 3.6rem); line-height: 1.1; margin: 0 0 20px
   .nav.open { display: flex; }
   .nav a { padding: 14px 16px; border-top: 1px solid var(--border); }
   .header-actions { margin-left: auto; }
+}
+
+@media (max-width: 720px) {
+  .cards-2 { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 380px) {
