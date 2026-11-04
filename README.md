@@ -32,7 +32,7 @@ Scheduling platform focused on service businesses.
 - 🔄 Designed for synchronization with backend
 - 🌐 Live application
 
-👉 https://www.agendou.net.br
+👉[Private Repository]
 
 ---
 
